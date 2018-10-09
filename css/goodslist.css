@@ -1,0 +1,99 @@
+/*中间商品列表*/
+.goodslist{
+	width:100%;
+	height: auto;
+	background: #F4F4F4;
+	padding-top:25px;
+	padding-bottom: 100px;
+	/*z-index:3;*/
+}
+.goodslist_top{
+	width:1080px;
+	height: 30px;
+	margin:0 auto;
+	line-height: 30px;
+	text-align: left;
+}
+.goodslist_top a{
+	font-size: 12px;
+	color:#000000;
+}
+.goodslist_top a:nth-of-type(2){
+	color:#999;
+	cursor: default;
+}
+.goodslist_top a:nth-of-type(2):hover{
+	color:#845f3f;
+}
+.goodslist_content{
+	width:1080px;
+	height:auto;
+	margin: 0 auto;
+}
+.content_txt{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	margin-top:38px;
+}
+.content_txt p{
+	font-size: 24px;
+	font-weight: 100;
+	color:#333;
+}
+.content_imgs{
+	width:100%;
+	height: auto;
+}
+.imgsline{
+	width:100%;
+	height: 290px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+.imgsline .imgs-per{
+	width:267px;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	transition: all .5s; 
+
+}
+.imgsline .imgs-per:hover{
+	box-shadow: 0 2px 20px rgba(0,0,0,.1) ;
+	transform: translate3d(0,-2px,0);
+}
+.per_tp{
+	width:195px;
+	height:195px;
+	margin:0 auto;
+}
+.imgs-per img{
+	width:100%;
+	height:100%;
+}
+.per_bt{
+	width:100%;
+	height: auto;
+}
+.per_bt .tit_one{
+	font-size: 16px;
+	color:#333;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 5px;
+}
+.per_bt .tit_two{
+	font-size: 14px;
+	color:#999;
+	height:20px;
+	line-height:20px;
+}
+.per_bt .tit_three{
+	font-size: 12px;
+	color:#c00000;
+	height:14px;
+	line-height:14px;
+	margin-top: 8px;
+}
